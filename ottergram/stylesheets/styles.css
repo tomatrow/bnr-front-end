@@ -13,6 +13,10 @@ a {
     display: block;
 }
 
+.thumbnail-list {
+    list-style: none;
+}
+
 .thumbnail-image {
     display: block;
     width: 100%;
