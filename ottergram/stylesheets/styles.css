@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 
-.thumbnail-item + .thumbnail-item {
+.thumbnail-item+.thumbnail-item {
     margin-top: 10px;
 }
 
