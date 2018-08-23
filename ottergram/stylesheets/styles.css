@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+.logo-text {
+    background: white;
+
+    font-size: 37px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .thumbnail-item+.thumbnail-item {
     margin-top: 10px;
 }
