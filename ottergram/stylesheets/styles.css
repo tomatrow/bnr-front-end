@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(149, 194, 215);
+    background-color: #FF4631;
     font-size: 10px;
 }
 
@@ -48,8 +48,8 @@ a {
 }
 
 .thumbnail-title {
-    background: rgb(96, 125, 139);
-    color: rgb(202, 238, 255);
+    background: #B22211;
+    color: #00B257;
     display: block;
     font-size: 18px;
     margin: 0;
