@@ -9,8 +9,14 @@
     url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
 }
 
+html, body {
+    width: 100%;
+}
+
 body {
     background-color: #FF4631;
+    display: flex;
+    flex-direction: column;
     font-size: 10px;
 }
 
