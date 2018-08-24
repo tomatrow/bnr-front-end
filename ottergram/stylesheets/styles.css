@@ -40,7 +40,9 @@ a {
 
 .thumbnail-list {
     list-style: none;
+    overflow-x: auto;
     padding: 0;
+    white-space: nowrap;
 }
 
 .thumbnail-image {
