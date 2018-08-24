@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+.main-header {
+    flex: 0 1 auto;
+}
+
 .logo-text {
     background: white;
 
@@ -35,18 +39,27 @@ a {
     text-transform: uppercase;
 }
 
-.thumbnail-item+.thumbnail-item {
+.main-content {
+
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .thumbnail-item {
     border: 1px solid rgb(100%, 100%, 100%);
     border: 1px solid rgba(100%, 100%, 100%, 0.8);
     display: inline-block;
-    width: 120px;
+    max-width: 120px;
+    min-width: 120px;
 }
 
 .thumbnail-list {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-between;
     list-style: none;
+    order: 2;
     overflow-x: auto;
     padding: 0;
     white-space: nowrap;
@@ -64,4 +77,25 @@ a {
     font-size: 18px;
     margin: 0;
     padding: 4px 10px;
+}
+
+.detail-image-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-image-frame {
+    position: relative;
+    text-align: center;
+}
+
+.detail-image {
+    width: 90%;
+}
+
+.detail-image-title {
+    font-size: 40px;
+    color: white;
 }
